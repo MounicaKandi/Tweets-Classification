@@ -1,12 +1,46 @@
-<h4>Coco Cola Tweet Classification - Is advertisement or not</h4>
+<html>
+  <head>
+    <style>
+      h1 {text-align: center; padding-top: 80px;}
+      h3 {text-align: center;}
+      button {text-align: center;}
+      h4 {text-align: center;}
+      p {text-align: center;}
 
-<form action="/" method="POST">
-  <button name="get_random_tweet">Get Random Tweet and Analyse</button>
-</form>
+      .button {
+        background-color: #008CBA;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 40px 580px;
+        padding: 10px; 
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Tweet Classification </h1>
+      <h3>Is advertisement or not</h3>
+      
+        <form action="/" method="POST">
+          <button class="button" name="get_random_tweet">Get Random Tweet and Analyse</button>
+        </form>
+    
+        <p> {% if data %}</p>
+        <h4> Tweet </h2>
+        <p> {{ data.tweet }} </p>
+        <h4> Is this an advertisement </h4>
+        <p> {{ data.is_advertisement }} </p>
+        <p> {% endif %} </p>
 
-{% if data %}
-<h5> Tweet </h5>
-<span> {{ data.tweet }} </span>
-<h5> Is this an advertisement </h5>
-<span> {{ data.is_advertisement }} </span>
-{% endif %}
+    </div>
+    
+
+  </body>
+</html>
