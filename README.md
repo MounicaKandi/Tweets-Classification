@@ -8,12 +8,14 @@ The main aim of this assignment is to perform tweets classification on 500 extra
 Connect to Twitter using Twitter API and extract 500 tweets. The extracted data is stored in the "data-collection.csv" file.
 
 The notebook link has the steps followed for extracting the tweets:
+
 https://colab.research.google.com/drive/1hzr_TWdo6ZcBpcaqmDxtN33zxHiT8rCq?usp=sharing
 
 ### Step 2: Data Preprocessing
 Preprocessing the data by removing all the unnecessary and unwanted characters. The "data-cleaning.csv" file has all the preprocessed data.
 
 Below is the notebook link for data pre-processing:
+
 https://colab.research.google.com/drive/1YnXxL8B-QIjvfzM8WyV-zekWNZFEtVVC?usp=sharing
 
 ### Step 3: Data Labelling
@@ -24,6 +26,7 @@ All the labeled data is saved in the "data-labelling.csv" file.
 Once the labeling is done, I trained the model using Logistic Regression and Naïve Bayes classifier.
 
 Notebook link for Model Training:
+
 https://colab.research.google.com/drive/1dvRz_UZfnyfaBNG4IsSp8-_HgeMWGu2x?usp=sharing
 
 ### Step 5: Creating a pickle file
@@ -38,6 +41,12 @@ The model score for the Naive Bayes Classifier is 0.72
 <img width="427" alt="image" src="https://user-images.githubusercontent.com/99624135/207203564-9db6dc83-de15-48b0-aee8-e7151ddf6c4a.png">
 
 As the Naive Bayes Model is the best model, we are creating the pickle file for that model.
+
+### Step 6: Creating a Flask Application
+Now we have to create a Flask Application using the python flask framework to visualize the tweet classification.
+
+This is the home page of our Flask Application
+
 
 
 
