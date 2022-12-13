@@ -20,4 +20,26 @@ https://colab.research.google.com/drive/1YnXxL8B-QIjvfzM8WyV-zekWNZFEtVVC?usp=sh
 The next step would be labeling the data. I have categorized the data and labeled them as 0’s and 1’s. The tweets that can be considered an advertisement is labeled as 1 and the tweets that are not advertisements are labeled as 0.
 All the labeled data is saved in the "data-labelling.csv" file.
 
+### Step 4: Model Training
+Once the labeling is done, I trained the model using Logistic Regression and Naïve Bayes classifier.
+
+Notebook link for Model Training:
+https://colab.research.google.com/drive/1dvRz_UZfnyfaBNG4IsSp8-_HgeMWGu2x?usp=sharing
+
+### Step 5: Creating a pickle file
+After saving the model, we must create a pickle file for the best model.
+
+The model score for Logistic regression is 0.704
+
+<img width="255" alt="image" src="https://user-images.githubusercontent.com/99624135/207203424-87ca548e-a997-4036-9a9e-a92b9f83fb13.png">
+
+The model score for the Naive Bayes Classifier is 0.72
+
+<img width="427" alt="image" src="https://user-images.githubusercontent.com/99624135/207203564-9db6dc83-de15-48b0-aee8-e7151ddf6c4a.png">
+
+As the Naive Bayes Model is the best model, we are creating the pickle file for that model.
+
+
+
+
 
