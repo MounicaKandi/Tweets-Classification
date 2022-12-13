@@ -47,6 +47,18 @@ Now we have to create a Flask Application using the python flask framework to vi
 
 This is the home page of our Flask Application
 
+<img width="1440" alt="Screenshot 2022-12-12 at 5 03 36 PM" src="https://user-images.githubusercontent.com/99624135/207204497-a186619c-f256-4fa8-b4ed-13708ef12718.png">
+
+If the tweet is an advertisement, the analysis result will be "1" as displayed below.
+
+<img width="1440" alt="Screenshot 2022-12-12 at 5 04 03 PM" src="https://user-images.githubusercontent.com/99624135/207204632-8beebb1b-909b-451e-9595-d05189728a80.png">
+
+If the tweet is not an advertisement, the analysis result will be "0" as displayed below.
+
+<img width="1440" alt="Screenshot 2022-12-12 at 5 04 10 PM" src="https://user-images.githubusercontent.com/99624135/207204670-9defef54-769d-40b9-88eb-24c6d4d4be68.png">
+
+
+
 
 
 
